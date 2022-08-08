@@ -1,0 +1,6 @@
+type: material
+
+name: Iron
+description: Used in builds that use energy.
+
+color: cccccc

@@ -1,0 +1,27 @@
+type: MemoryBlock
+size: 1
+
+name: Extended Memory Cell
+description: A slightly better version of a memory cell, if you don't need all those 512 storage cells. It's also way more fortified. Better not to be used as a wall.
+
+health: 4200
+
+requirements: [
+    graphite/50
+    lead/30
+    iron/5
+    energy-cell/1
+]
+
+memoryCapacity: 256
+
+drawCracks: false
+
+category: logic
+research: memory-cell
+
+solid: false
+underBullets: true
+
+absorbLasers: true
+schematicPriority: 2

@@ -1,0 +1,18 @@
+type: MessageBlock
+
+name: Extended Message
+description: If you don't have enough space, then use this.
+
+size: 1
+health: 1250
+
+requirements: [
+    graphite/100
+    silicon/25
+]
+
+maxTextLength: 500
+maxNewlines: 50
+
+category: logic
+research: message

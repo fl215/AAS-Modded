@@ -1,0 +1,32 @@
+name: Energy Cell Generator
+description: Collects energy from various materials, compresses it into a rod and outputs an energy cell.
+
+health: 500
+size: 2
+
+hasItems: true
+hasPower: true
+
+itemCapacity: 600
+
+requirements: [
+    copper/130
+    lead/130
+    iron/50
+]
+
+consumes: {
+    power: 115
+    items: {
+        items: [
+            phase-fabric/350
+            surge-alloy/160
+            thorium/400
+        ]
+    }
+}
+
+outputItem: energy-cell/1
+craftTime: 650
+
+category: crafting

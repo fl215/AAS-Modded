@@ -1,0 +1,17 @@
+name: Logic Message
+description: Esentially the message block that we always asked for. @config to read its text. It can only store short messages.
+
+requirements: [
+    graphite/25
+    silicon/15
+    energy-cell/1
+]
+
+maxTextLength: 100
+maxNewlines: 10
+
+configurable: false
+logicConfigurable: true
+
+category: logic
+absorbLasers: true

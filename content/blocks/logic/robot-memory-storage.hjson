@@ -1,0 +1,21 @@
+type: MemoryBlock
+size: 1
+
+name: Robot Memory
+description: Stores memory for a robot.
+
+health: 50
+armor: 2
+
+requirements: [
+    graphite/50
+    iron/5
+]
+
+memoryCapacity: 80
+
+category: logic
+
+solid: false
+underBullets: true
+schematicPriority: 2

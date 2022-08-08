@@ -1,0 +1,28 @@
+type: Liquid
+name: Your Fear
+
+heatCapacity: 2
+explosiveness: 2
+flammability: 2
+temperature: 2
+viscosity: 2
+
+color: 000000
+lightColor: 000000
+effect: {
+	name: Fear
+	damage: 0.05
+	speedMultiplier: 2
+	damageMultiplier: 0
+	reloadMultiplier: 0
+	effectChance: 0.1
+	effect: {
+		type: ParticleEffect
+		particles: 10
+		length: 0
+		lifetime: 120
+		sizeFrom: 0.1
+		colorFrom: ffffff
+		colorTo: 000000
+	}
+}

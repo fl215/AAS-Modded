@@ -1,0 +1,25 @@
+type: Liquid
+name: Liquid Spore
+
+heatCapacity: 0.3
+flammability: 0.8
+
+color: 8300FF
+lightColor: 8300FF
+effect: {
+	name: Spore-slowed
+	damage: 0
+	speedMultiplier: 0.7
+	damageMultiplier: 0.8
+	reloadMultiplier: 1
+	effectChance: 0.01
+	effect: {
+		type: ParticleEffect
+		particles: 5
+		length: 0
+		lifetime: 30
+		sizeFrom: 1
+		colorFrom: 8300FF
+		colorTo: 8300FF
+	}
+}

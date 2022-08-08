@@ -1,0 +1,22 @@
+speedMultiplier: 1
+dragMultiplier: 1
+
+buildSpeedMultiplier: 1.2
+effectChance: 1
+
+affinities: [shocked/10]
+opposites: [wet]
+
+effect: {
+	type: ParticleEffect
+	particles: 2
+	length: 1
+	line: true
+	lifetime: 90
+	strokeFrom: 2
+	strokeTo: 0
+	lenFrom: 12
+	lenTo: 12
+	solorTo: C10000
+	sizeInterp: linear
+}

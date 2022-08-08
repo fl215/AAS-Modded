@@ -1,0 +1,9 @@
+name: "energistics"
+displayName: "Energistics"
+description: "Offering various combination of mods such as Anuke Logic & Exotic Mod."
+author: "[purple]Ex[royal]e[pink]cute"
+version: "2.0.0"
+hidden: false
+dependencies: []
+minGameVersion: 126
+repo: "fl215/AAS-Modded"

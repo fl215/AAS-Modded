@@ -1,0 +1,10 @@
+type: material
+
+name: Energy Cell
+description: A pack of energy. Really dangerous to touch. Usually used in builds that require tons of energy. For some reason, this absorbs lasers.
+
+charge: 2
+flammability: 2
+explosiveness: 3.5
+
+color: ffff00

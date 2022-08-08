@@ -1,0 +1,17 @@
+name: Keyboard
+description: You can only read from this block. Writing to it using logic is not possible.
+
+requirements: [
+    graphite/25
+    silicon/15
+    energy-cell/1
+]
+
+maxTextLength: 250
+maxNewlines: 24
+
+configurable: true
+logicConfigurable: false
+
+category: logic
+absorbLasers: true

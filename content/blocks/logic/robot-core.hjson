@@ -1,0 +1,30 @@
+type: LogicBlock
+
+name: Robot Core
+description: A core processor of a robot. Please code in it, NOT to be used as design.
+
+size: 1
+health: 200
+
+armor: 2
+
+requirements: [
+    silicon/50
+    iron/5
+    energy-cell/1
+]
+
+baseExplosiveness: 2.0
+
+consumes: {
+    power: 50
+}
+
+instructionsPerTick: 8
+range: 40
+
+category: logic
+
+absorbLasers: true
+logicConfigurable: true
+schematicPriority: 2

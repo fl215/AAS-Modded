@@ -1,0 +1,25 @@
+type: LogicBlock
+
+name: Extended Micro Processor
+description: Faster, good-looking, for minimal tasks that would require more than 1 micro processor.
+
+size: 1
+health: 400
+
+requirements: [
+    graphite/450
+    lead/30
+    silicon/30
+    iron/5
+]
+
+instructionsPerTick: 5
+range: 350
+
+drawCracks: false
+
+category: logic
+research: micro-processor
+
+absorbLasers: true
+logicConfigurable: true

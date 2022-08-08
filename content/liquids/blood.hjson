@@ -1,0 +1,26 @@
+type: Liquid
+name: Blood
+
+temperature: 0.6
+heatCapacity: 0.1
+viscosity: 0.8
+
+color: C10000
+lightColor: C10000
+effect: {
+	name: blood-wet
+	damage: 0
+	speedMultiplier: 0.9
+	damageMultiplier: 1
+	reloadMultiplier: 1
+	effectChance: 1
+	effect: {
+		type: ParticleEffect
+		particles: 1
+		length: 1
+		lifetime: 100
+		sizeFrom: 0.3
+		colorFrom: C10000
+		colorTo: C10000
+	}
+}

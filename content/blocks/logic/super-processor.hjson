@@ -1,0 +1,47 @@
+type: LogicBlock
+
+name: Super Processor
+description: Executes instructions at really high rate. Only use it if even a hyper processor is not enough.
+
+size: 3
+health: 200
+
+armor: 1.5
+
+baseExplosiveness: 2.0
+
+itemCapacity: 4
+
+hasItems: true
+
+requirements: [
+    copper/1500
+    lead/300
+    silicon/350
+    thorium/150
+    iron/25
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: energy-cell
+                amount: 1
+            }
+        ]
+    }
+}
+
+instructionsPerTick: 40
+range: 1200
+
+drawCracks: false
+
+category: logic
+research: hyper-processor
+
+canOverdrive: false
+
+absorbLasers: true
+logicConfigurable: true

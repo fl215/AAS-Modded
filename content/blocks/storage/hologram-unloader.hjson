@@ -1,0 +1,13 @@
+type: Unloader
+name: Dark Unloader
+description: Double the armor now.
+
+speed: 1.0
+
+requirements: [
+    iron/5
+]
+
+logicConfigurable: true
+group: transportation
+category: effect

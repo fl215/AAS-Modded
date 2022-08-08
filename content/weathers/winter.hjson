@@ -1,0 +1,32 @@
+type: ParticleWeather
+name: Winter
+
+color: ccffff
+noiseColor: ccffff
+
+particleRegion: particle
+
+sizeMax: 0
+sizeMin: 0
+
+density: 250
+
+status: freezing
+useWindVector: true
+
+drawNoise: true
+
+opacityMultiplier: 0.9
+
+baseSpeed: 10
+
+sound: windhowl
+soundVol: 1.2
+
+force: 1
+
+attrs: {
+	heat: -0.5
+	water: 1.3
+	spores: -0.1
+}

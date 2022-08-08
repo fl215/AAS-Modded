@@ -1,0 +1,28 @@
+type: Liquid
+name: Liquid Energy
+
+heatCapacity: 2
+explosiveness: 2
+flammability: 2
+temperature: 2
+viscosity: 2
+
+color: ffff00
+lightColor: ffff00
+effect: {
+	name: Shocked
+	damage: 0.15
+	speedMultiplier: 1.5
+	damageMultiplier: 2
+	reloadMultiplier: 2
+	effectChance: 1
+	effect: {
+		type: ParticleEffect
+		particles: 3
+		length: 20
+		lifetime: 80
+		sizeFrom: 1
+		colorFrom: ffff00
+		colorTo: ffff00
+	}
+}

@@ -1,0 +1,27 @@
+type: LogicDisplay
+
+name: Extended Display
+description: Extended display for more beautiful graphics.
+
+hasItems: true
+
+ItemCapacity: 80000
+
+requirements: [
+	silicon/10
+	thorium/15
+	lead/30
+	energy-cell/1
+]
+
+displaySize: 256
+size: 8
+health: 2400
+
+drawCracks: false
+
+category: logic
+research: large-logic-display
+
+absorbLasers: true
+canOverdrive: false
