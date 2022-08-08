@@ -17,6 +17,6 @@ effect: {
 	strokeTo: 0
 	lenFrom: 12
 	lenTo: 12
-	solorTo: C10000
+	colorTo: C10000
 	sizeInterp: linear
 }
