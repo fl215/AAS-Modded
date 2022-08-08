@@ -1,5 +1,5 @@
 name: Energy Cell Generator
-description: Collects energy from various materials, compresses it into a rod and outputs an energy cell.
+description: Collects energy from various materials ands compresses it into a rod.
 
 health: 500
 size: 2

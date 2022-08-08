@@ -1,0 +1,13 @@
+type: Router
+
+name: Allocator
+description: A bigger distributor.
+
+size: 3
+speed: 32.0
+
+health: 1200
+armor: 0.2
+
+category: distribution
+group: transportation

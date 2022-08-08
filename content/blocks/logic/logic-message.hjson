@@ -1,5 +1,5 @@
-name: Logic Message
-description: Esentially the message block that we always asked for. @config to read its text. It can only store short messages.
+name: Message Storage
+description: A message block that can be edited and read only by logic blocks. Used to communicate strings between different logic processors.
 
 requirements: [
     graphite/25
