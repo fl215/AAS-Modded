@@ -1,11 +1,11 @@
 type: Liquid
 name: Liquid Energy
 
-heatCapacity: 2
-explosiveness: 2
-flammability: 2
-temperature: 2
-viscosity: 2
+heatCapacity: 10
+flammability: 0
+explosiveness: 0
+temperature: 0
+viscosity: 0
 
 color: ffff00
 lightColor: ffff00
