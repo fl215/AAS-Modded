@@ -3,6 +3,9 @@ type: Router
 name: Allocator
 description: A bigger distributor.
 
+hasItems: true
+itemCapacity: 5
+
 size: 3
 speed: 32.0
 
